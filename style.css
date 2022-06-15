@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+}
+
+.bannerHeader{
+    width: 70%;
+    height: 35vh;
+}
+body{
+    background-color: #000;
+    color: white;
+}
+.title{
+    font-family:cursive;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+.contaInput{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputsito{
+    background-color: rgb(57, 57, 57);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 80%;
+    color: rgb(0, 255, 238);
+    text-align: center;
+}
+.botonBusqueda{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.btnBusca{
+    border-radius: 5px;
+    color: aqua;
+    height: 30px;
+    width: 85px;
+    background-color: rgb(57, 57, 57);
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    background-color: rgb(82, 82, 82);
+    width: 19%;
+    height: 22vh;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.imgPersonaje{
+    height: 100%;
+
+}
+.imgfoto{
+    height: 100%;
+    width: 17vh;
+    border-radius: 5px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 17px;
+}
+
